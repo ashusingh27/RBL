@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="31.040911">
+<testcase classname="RBL End To End flow" name="STP Scenario" time="24.825117">
+<system-out><![CDATA[Given I am requesting "BaseURI".............................................passed
+When I go to "/ILMAPI/LMAPI/ADDTRANSACTIONTEST" and "post" API Request saved in JSON File "Payment.json" without charset.passed
+Then I am validating object "[0].Status" for String value "Transaction Received"..passed
+When I go to "/ILMAPI/LMAPI/STATUSCHECKTEST" and "post" API Request saved in JSON File "Status.json" without charset.passed
+Then I am validating object "Status" for String value "Sent to Authorizer"..passed
+When Navigate To Specific RBL Portal........................................passed
+Then Login to User Admin Using Following Credentials :......................passed
+Then I go to "MIS"..........................................................passed
+Then I go to Bank User Dashboard............................................passed
+Then I am validating response status with application status................passed
+]]></system-out>
+</testcase>
+<testcase classname="RBL End To End flow" name="STP Scenario_1" time="6.215794">
+<failure message="java.lang.AssertionError: expected [Sent to Authorizer] but found [Success]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:94)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:513)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:135)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:116)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:190)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:200)&#13;&#10;&#9;at com.stepDefinition.API.RBL.RBLStepDefinition.i_am_validating_object_for_String_value(RBLStepDefinition.java:130)&#13;&#10;&#9;at ✽.I am validating object &quot;Status&quot; for String value &quot;Success&quot;.(src/test/java/com/features/rbl/RBLApi.feature:25)&#13;&#10;"><![CDATA[Given I am requesting "BaseURI".............................................passed
+When I go to "/ILMAPI/LMAPI/ADDTRANSACTIONTEST" and "post" API Request saved in JSON File "Payment1.json" without charset.passed
+Then I am validating object "[0].Status" for String value "Transaction Received"..passed
+When I go to "/ILMAPI/LMAPI/STATUSCHECKTEST" and "post" API Request saved in JSON File "Status1.json" without charset.passed
+Then I am validating object "Status" for String value "Success".............failed
+When Navigate To Specific RBL Portal........................................skipped
+Then Login to User Admin Using Following Credentials :......................skipped
+Then I go to "MIS"..........................................................skipped
+Then I go to Bank User Dashboard............................................skipped
+Then I am validating response status with application status................skipped
+
+StackTrace:
+java.lang.AssertionError: expected [Sent to Authorizer] but found [Success]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.stepDefinition.API.RBL.RBLStepDefinition.i_am_validating_object_for_String_value(RBLStepDefinition.java:130)
+	at ✽.I am validating object "Status" for String value "Success".(src/test/java/com/features/rbl/RBLApi.feature:25)
+]]></failure>
+</testcase>
+</testsuite>

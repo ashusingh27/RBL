@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="221.755892">
+<testcase classname="RBL - STP Workflow" name="Scanario_Id_STP" time="221.755892">
+<system-out><![CDATA[Given I am requesting "BaseURI".............................................passed
+When I want to "/ILMAPI/LMAPI/ADDTRANSACTIONTEST" and "post" API Request saved in JSON File "Payment_I.json" without charset.passed
+When I go to status "/ILMAPI/LMAPI/STATUSCHECKTEST" and "post" API Request saved in JSON File "Status_I.json" without charset.passed
+Then I am fetch Status response.............................................passed
+When Navigate To Specific RBL Portal........................................passed
+Then Login to User Admin Using Following Credentials :......................passed
+Then I check a transaction log inquiry using corporate reference number.....passed
+Then I check a PPS log inquiry of above transaction, for acknowledgement sent to WU.passed
+Then I Check whether the transaction appears in mandate wise Report or transaction count report under MIS.passed
+Then I go to Transaction Dashborad for validating response status with application status.passed
+Then I am close browser.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

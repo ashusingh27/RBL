@@ -1,0 +1,613 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6595883900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am requesting \"BaseURI\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BaseURI\"",
+                  "offset": 16
+                }
+              ],
+              "location": "RBLStepDefinition.i_am_requesting(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "RBL - STP Bulk transaction",
+        "description": "",
+        "id": "rbl---stp-bulk-transaction-workflow;rbl---stp-bulk-transaction;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10732940500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to execute payment \"Bulk Transaction for N\" using excel file \"RBLBulkData\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bulk Transaction for N\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"RBLBulkData\"",
+                  "offset": 68
+                }
+              ],
+              "location": "RBL_BulkStepDefinition.i_want_to_execute_payment_using_excel_file(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101207076300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to execute status rest api",
+            "match": {
+              "location": "RBL_BulkStepDefinition.i_want_to_execute_status_rest_api()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 452222200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am fetch Status response",
+            "match": {
+              "location": "RBLStepDefinition.i_am_fetch_Status_response()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 543043800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Navigate To Specific RBL Portal",
+            "match": {
+              "location": "RBLStepDefinition.navigate_to_specific_rbl_portal()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1480038300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Login to User Admin Using Following Credentials :",
+            "match": {
+              "location": "RBLStepDefinition.login_to_User_Admin_Using_Following_Credentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "USERNAME",
+                  "PASSWORD"
+                ]
+              },
+              {
+                "cells": [
+                  "rbladmin",
+                  "password@2"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6199408200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I Check whether the transaction appears in mandate wise Report or transaction count report under MIS",
+            "match": {
+              "location": "RBLStepDefinition.i_Check_whether_the_transaction_appears_in_mandate_wise_Report_or_transaction_count_report_under_MIS()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 670222000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am close browser",
+            "match": {
+              "location": "RBLStepDefinition.i_am_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RestAPI"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5634808500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am requesting \"BaseURI\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BaseURI\"",
+                  "offset": 16
+                }
+              ],
+              "location": "RBLStepDefinition.i_am_requesting(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "RBL - STP Bulk transaction",
+        "description": "",
+        "id": "rbl---stp-bulk-transaction-workflow;rbl---stp-bulk-transaction;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7393283800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to execute payment \"Bulk Transaction for D\" using excel file \"RBLBulkData-D\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bulk Transaction for D\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"RBLBulkData-D\"",
+                  "offset": 68
+                }
+              ],
+              "location": "RBL_BulkStepDefinition.i_want_to_execute_payment_using_excel_file(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101449885100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to execute status rest api",
+            "match": {
+              "location": "RBL_BulkStepDefinition.i_want_to_execute_status_rest_api()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 83419000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am fetch Status response",
+            "match": {
+              "location": "RBLStepDefinition.i_am_fetch_Status_response()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 436300900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Navigate To Specific RBL Portal",
+            "match": {
+              "location": "RBLStepDefinition.navigate_to_specific_rbl_portal()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1388508700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Login to User Admin Using Following Credentials :",
+            "match": {
+              "location": "RBLStepDefinition.login_to_User_Admin_Using_Following_Credentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "USERNAME",
+                  "PASSWORD"
+                ]
+              },
+              {
+                "cells": [
+                  "rbladmin",
+                  "password@2"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 238777001200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I Check whether the transaction appears in mandate wise Report or transaction count report under MIS",
+            "match": {
+              "location": "RBLStepDefinition.i_Check_whether_the_transaction_appears_in_mandate_wise_Report_or_transaction_count_report_under_MIS()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1025145600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am close browser",
+            "match": {
+              "location": "RBLStepDefinition.i_am_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RestAPI"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5478415100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am requesting \"BaseURI\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BaseURI\"",
+                  "offset": 16
+                }
+              ],
+              "location": "RBLStepDefinition.i_am_requesting(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "RBL - STP Bulk transaction",
+        "description": "",
+        "id": "rbl---stp-bulk-transaction-workflow;rbl---stp-bulk-transaction;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10647395200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to execute payment \"Bulk Transaction for I\" using excel file \"RBLBulkData-I\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bulk Transaction for I\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"RBLBulkData-I\"",
+                  "offset": 68
+                }
+              ],
+              "location": "RBL_BulkStepDefinition.i_want_to_execute_payment_using_excel_file(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101151288400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to execute status rest api",
+            "match": {
+              "location": "RBL_BulkStepDefinition.i_want_to_execute_status_rest_api()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 91831900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am fetch Status response",
+            "match": {
+              "location": "RBLStepDefinition.i_am_fetch_Status_response()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 661377800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Navigate To Specific RBL Portal",
+            "match": {
+              "location": "RBLStepDefinition.navigate_to_specific_rbl_portal()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1420255300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Login to User Admin Using Following Credentials :",
+            "match": {
+              "location": "RBLStepDefinition.login_to_User_Admin_Using_Following_Credentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "USERNAME",
+                  "PASSWORD"
+                ]
+              },
+              {
+                "cells": [
+                  "rbladmin",
+                  "password@2"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11217006700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I Check whether the transaction appears in mandate wise Report or transaction count report under MIS",
+            "match": {
+              "location": "RBLStepDefinition.i_Check_whether_the_transaction_appears_in_mandate_wise_Report_or_transaction_count_report_under_MIS()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 649859900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am close browser",
+            "match": {
+              "location": "RBLStepDefinition.i_am_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RestAPI"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5591040200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am requesting \"BaseURI\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BaseURI\"",
+                  "offset": 16
+                }
+              ],
+              "location": "RBLStepDefinition.i_am_requesting(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "RBL - STP Bulk transaction",
+        "description": "",
+        "id": "rbl---stp-bulk-transaction-workflow;rbl---stp-bulk-transaction;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18682474100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to execute payment \"Bulk Transaction for I,N\" using excel file \"RBLBulkData-I-N\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bulk Transaction for I,N\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"RBLBulkData-I-N\"",
+                  "offset": 70
+                }
+              ],
+              "location": "RBL_BulkStepDefinition.i_want_to_execute_payment_using_excel_file(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 111228259300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to execute status rest api",
+            "match": {
+              "location": "RBL_BulkStepDefinition.i_want_to_execute_status_rest_api()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 204067400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am fetch Status response",
+            "match": {
+              "location": "RBLStepDefinition.i_am_fetch_Status_response()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 924712000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Navigate To Specific RBL Portal",
+            "match": {
+              "location": "RBLStepDefinition.navigate_to_specific_rbl_portal()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1446385300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Login to User Admin Using Following Credentials :",
+            "match": {
+              "location": "RBLStepDefinition.login_to_User_Admin_Using_Following_Credentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "USERNAME",
+                  "PASSWORD"
+                ]
+              },
+              {
+                "cells": [
+                  "rbladmin",
+                  "password@2"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8120466600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I Check whether the transaction appears in mandate wise Report or transaction count report under MIS",
+            "match": {
+              "location": "RBLStepDefinition.i_Check_whether_the_transaction_appears_in_mandate_wise_Report_or_transaction_count_report_under_MIS()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 744834700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am close browser",
+            "match": {
+              "location": "RBLStepDefinition.i_am_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RestAPI"
+          }
+        ]
+      }
+    ],
+    "name": "RBL - STP Bulk transaction Workflow",
+    "description": "",
+    "id": "rbl---stp-bulk-transaction-workflow",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/features/rbl/RBL_Bulk.feature",
+    "tags": []
+  }
+]

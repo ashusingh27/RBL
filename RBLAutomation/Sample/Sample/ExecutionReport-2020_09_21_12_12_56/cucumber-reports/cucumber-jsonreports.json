@@ -1,0 +1,572 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6238433100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am requesting \"BaseURI\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BaseURI\"",
+                  "offset": 16
+                }
+              ],
+              "location": "RBLStepDefinition.i_am_requesting(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Scanario_Id_STP",
+        "description": "",
+        "id": "rbl---stp-workflow;scanario-id-stp",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8600912800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I want to \"/ILMAPI/LMAPI/ADDTRANSACTIONTEST\" and \"post\" API Request saved in JSON File \"Payment_I.json\" without charset",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/ILMAPI/LMAPI/ADDTRANSACTIONTEST\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Payment_I.json\"",
+                  "offset": 87
+                }
+              ],
+              "location": "RBLStepDefinition.i_want_to_and_API_Request_saved_in_JSON_File_without_charset(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "MANDATETYPE",
+                  "AMOUNT",
+                  "BENEFICIARYACCOUNTNO",
+                  "BENEFICIARYIFSC",
+                  "BENEFICIARYACCOUNTHOLDERNAME",
+                  "REMITTERNAME"
+                ]
+              },
+              {
+                "cells": [
+                  "N",
+                  "2300",
+                  "409000015845",
+                  "ICIC0000555",
+                  "Dasi",
+                  "Dasi"
+                ]
+              },
+              {
+                "cells": [
+                  "D",
+                  "2300",
+                  "409000015845",
+                  "RATN0000001",
+                  "Dasi",
+                  "Dasi"
+                ]
+              },
+              {
+                "cells": [
+                  "I",
+                  "2300",
+                  "112101505172011",
+                  "SIMB0002233",
+                  "Dasi",
+                  "Dasi"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 241493311500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I go to status \"/ILMAPI/LMAPI/STATUSCHECKTEST\" and \"post\" API Request saved in JSON File \"Status_I.json\" without charset",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/ILMAPI/LMAPI/STATUSCHECKTEST\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"Status_I.json\"",
+                  "offset": 89
+                }
+              ],
+              "location": "RBLStepDefinition.i_go_to_status_and_API_Request_saved_in_JSON_File_without_charset(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "MANDATETYPE"
+                ]
+              },
+              {
+                "cells": [
+                  "I"
+                ]
+              },
+              {
+                "cells": [
+                  "D"
+                ]
+              },
+              {
+                "cells": [
+                  "N"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 409570800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I am fetch Status response",
+            "match": {
+              "location": "RBLStepDefinition.i_am_fetch_Status_response()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 543271600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Navigate To Specific RBL Portal",
+            "match": {
+              "location": "RBLStepDefinition.navigate_to_specific_rbl_portal()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1636635600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Login to User Admin Using Following Credentials :",
+            "match": {
+              "location": "RBLStepDefinition.login_to_User_Admin_Using_Following_Credentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "USERNAME",
+                  "PASSWORD"
+                ]
+              },
+              {
+                "cells": [
+                  "rbladmin",
+                  "password@2"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25540949900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I check a transaction log inquiry using corporate reference number",
+            "match": {
+              "location": "RBLStepDefinition.i_check_a_transaction_log_inquiry_using_corporate_reference_number()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6896742900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I check a PPS log inquiry of above transaction, for acknowledgement sent to WU",
+            "match": {
+              "location": "RBLStepDefinition.i_check_a_PPS_log_inquiry_of_above_transaction_for_acknowledgement_sent_to_WU()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3775975800,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I Check whether the transaction appears in mandate wise Report or transaction count report under MIS",
+            "match": {
+              "location": "RBLStepDefinition.i_Check_whether_the_transaction_appears_in_mandate_wise_Report_or_transaction_count_report_under_MIS()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 730238773600,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I go to Transaction Dashborad for validating response status with application status",
+            "match": {
+              "location": "RBLStepDefinition.i_go_to_Transaction_Dashborad_for_validating_response_status_with_application_status()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 838034700,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I am close browser",
+            "match": {
+              "location": "RBLStepDefinition.i_am_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Duplicate"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5597477200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am requesting \"BaseURI\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BaseURI\"",
+                  "offset": 16
+                }
+              ],
+              "location": "RBLStepDefinition.i_am_requesting(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 70,
+        "name": "Scanario_Duplicate",
+        "description": "",
+        "id": "rbl---stp-workflow;scanario-duplicate",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.net.UnknownHostException: rbllastmile.remit.in\r\n\tat java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)\r\n\tat java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)\r\n\tat java.net.InetAddress.getAddressesFromNameService(Unknown Source)\r\n\tat java.net.InetAddress.getAllByName0(Unknown Source)\r\n\tat java.net.InetAddress.getAllByName(Unknown Source)\r\n\tat java.net.InetAddress.getAllByName(Unknown Source)\r\n\tat org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)\r\n\tat org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)\r\n\tat org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)\r\n\tat org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)\r\n\tat org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)\r\n\tat org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)\r\n\tat org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)\r\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)\r\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)\r\n\tat org.apache.http.client.HttpClient$execute$0.call(Unknown Source)\r\n\tat io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2146)\r\n\tat io.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:349)\r\n\tat io.restassured.internal.http.HTTPBuilder$post$2.call(Unknown Source)\r\n\tat io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1274)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)\r\n\tat io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:152)\r\n\tat io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)\r\n\tat io.restassured.filter.Filter$filter$0.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)\r\n\tat io.restassured.filter.Filter$filter.call(Unknown Source)\r\n\tat io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)\r\n\tat io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)\r\n\tat io.restassured.filter.Filter$filter.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)\r\n\tat io.restassured.filter.Filter$filter.call(Unknown Source)\r\n\tat io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)\r\n\tat io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:122)\r\n\tat io.restassured.filter.Filter$filter.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)\r\n\tat io.restassured.filter.Filter$filter$0.call(Unknown Source)\r\n\tat io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)\r\n\tat io.restassured.filter.FilterContext$next.call(Unknown Source)\r\n\tat io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1749)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)\r\n\tat io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\r\n\tat io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1755)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)\r\n\tat io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\r\n\tat io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:175)\r\n\tat io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)\r\n\tat com.rbl.util.RestAssuredCode.restApiHit(RestAssuredCode.java:54)\r\n\tat com.stepDefinition.API.RBL.RBLStepDefinition.i_want_to_and_API_Request_saved_in_JSON_File_with_duplicate_data(RBLStepDefinition.java:468)\r\n\tat ✽.I want to \"/ILMAPI/LMAPI/ADDTRANSACTIONTEST\" and \"post\" API Request saved in JSON File \"Payment_I.json\" with duplicate data(src/test/java/com/features/rbl/RBLApi.feature:71)\r\n",
+              "duration": 11092494200,
+              "status": "failed"
+            },
+            "line": 71,
+            "name": "I want to \"/ILMAPI/LMAPI/ADDTRANSACTIONTEST\" and \"post\" API Request saved in JSON File \"Payment_I.json\" with duplicate data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/ILMAPI/LMAPI/ADDTRANSACTIONTEST\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Payment_I.json\"",
+                  "offset": 87
+                }
+              ],
+              "location": "RBLStepDefinition.i_want_to_and_API_Request_saved_in_JSON_File_with_duplicate_data(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "MANDATETYPE",
+                  "AMOUNT",
+                  "BENEFICIARYACCOUNTNO",
+                  "BENEFICIARYIFSC",
+                  "BENEFICIARYACCOUNTHOLDERNAME",
+                  "REMITTERNAME"
+                ]
+              },
+              {
+                "cells": [
+                  "N",
+                  "2300",
+                  "409000015845",
+                  "ICIC0000555",
+                  "Dasi",
+                  "Dasi"
+                ]
+              },
+              {
+                "cells": [
+                  "D",
+                  "2300",
+                  "409000015845",
+                  "RATN0000001",
+                  "Dasi",
+                  "Dasi"
+                ]
+              },
+              {
+                "cells": [
+                  "I",
+                  "2300",
+                  "112101505172011",
+                  "SIMB0002233",
+                  "Dasi",
+                  "Dasi"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1370400,
+              "status": "skipped"
+            },
+            "line": 77,
+            "name": "I am validating object \"[0].ErrorDesc\" for String value \"Duplicate Transaction Id\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"[0].ErrorDesc\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Duplicate Transaction Id\"",
+                  "offset": 56
+                }
+              ],
+              "location": "RBLStepDefinition.i_am_validating_object_for_String_value(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3831200,
+              "status": "skipped"
+            },
+            "line": 78,
+            "name": "I go to status \"/ILMAPI/LMAPI/STATUSCHECKTEST\" and \"post\" API Request saved in JSON File \"Status_I.json\" without charset",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/ILMAPI/LMAPI/STATUSCHECKTEST\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"Status_I.json\"",
+                  "offset": 89
+                }
+              ],
+              "location": "RBLStepDefinition.i_go_to_status_and_API_Request_saved_in_JSON_File_without_charset(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "MANDATETYPE"
+                ]
+              },
+              {
+                "cells": [
+                  "I"
+                ]
+              },
+              {
+                "cells": [
+                  "D"
+                ]
+              },
+              {
+                "cells": [
+                  "N"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1079000,
+              "status": "skipped"
+            },
+            "line": 84,
+            "name": "I am fetch Status response",
+            "match": {
+              "location": "RBLStepDefinition.i_am_fetch_Status_response()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28899900,
+              "status": "skipped"
+            },
+            "line": 85,
+            "name": "Navigate To Specific RBL Portal",
+            "match": {
+              "location": "RBLStepDefinition.navigate_to_specific_rbl_portal()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1311100,
+              "status": "skipped"
+            },
+            "line": 86,
+            "name": "Login to User Admin Using Following Credentials :",
+            "match": {
+              "location": "RBLStepDefinition.login_to_User_Admin_Using_Following_Credentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "USERNAME",
+                  "PASSWORD"
+                ]
+              },
+              {
+                "cells": [
+                  "rbladmin",
+                  "password@2"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 359400,
+              "status": "skipped"
+            },
+            "line": 89,
+            "name": "I check a transaction log inquiry using corporate reference number",
+            "match": {
+              "location": "RBLStepDefinition.i_check_a_transaction_log_inquiry_using_corporate_reference_number()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 259600,
+              "status": "skipped"
+            },
+            "line": 90,
+            "name": "I check a PPS log inquiry of above transaction, for acknowledgement sent to WU",
+            "match": {
+              "location": "RBLStepDefinition.i_check_a_PPS_log_inquiry_of_above_transaction_for_acknowledgement_sent_to_WU()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 247100,
+              "status": "skipped"
+            },
+            "line": 91,
+            "name": "I Check whether the transaction appears in mandate wise Report or transaction count report under MIS",
+            "match": {
+              "location": "RBLStepDefinition.i_Check_whether_the_transaction_appears_in_mandate_wise_Report_or_transaction_count_report_under_MIS()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 234400,
+              "status": "skipped"
+            },
+            "line": 92,
+            "name": "I go to Transaction Dashborad for validating response status with application status",
+            "match": {
+              "location": "RBLStepDefinition.i_go_to_Transaction_Dashborad_for_validating_response_status_with_application_status()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 256300,
+              "status": "skipped"
+            },
+            "line": 93,
+            "name": "I am close browser",
+            "match": {
+              "location": "RBLStepDefinition.i_am_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Duplicate"
+          }
+        ]
+      }
+    ],
+    "name": "RBL - STP Workflow",
+    "description": "",
+    "id": "rbl---stp-workflow",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/features/rbl/RBLApi.feature",
+    "tags": []
+  }
+]

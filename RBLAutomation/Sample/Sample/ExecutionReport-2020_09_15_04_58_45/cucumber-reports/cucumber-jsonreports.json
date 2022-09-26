@@ -1,0 +1,285 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6992183300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am requesting \"BaseURI\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BaseURI\"",
+                  "offset": 16
+                }
+              ],
+              "location": "RBLStepDefinition.i_am_requesting(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Scanario_Id_STP",
+        "description": "",
+        "id": "rbl---stp-workflow;scanario-id-stp",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4223772000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I want to \"/ILMAPI/LMAPI/ADDTRANSACTIONTEST\" and \"post\" API Request saved in JSON File \"Payment_I.json\" without charset",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/ILMAPI/LMAPI/ADDTRANSACTIONTEST\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Payment_I.json\"",
+                  "offset": 87
+                }
+              ],
+              "location": "RBLStepDefinition.i_want_to_and_API_Request_saved_in_JSON_File_without_charset(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "MANDATETYPE",
+                  "AMOUNT",
+                  "BENEFICIARYACCOUNTNO",
+                  "BENEFICIARYIFSC"
+                ]
+              },
+              {
+                "cells": [
+                  "R",
+                  "200010",
+                  "409000015845",
+                  "ICIC0000555"
+                ]
+              },
+              {
+                "cells": [
+                  "N",
+                  "2300",
+                  "409000015845",
+                  "ICIC0000555"
+                ]
+              },
+              {
+                "cells": [
+                  "D",
+                  "2300",
+                  "409000015845",
+                  "RATN0000001"
+                ]
+              },
+              {
+                "cells": [
+                  "I",
+                  "2300",
+                  "112101505172011",
+                  "SIMB0002233"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.rbl.util.RestAssuredCode.statusResponseProcess(RestAssuredCode.java:83)\r\n\tat com.stepDefinition.API.RBL.RBLStepDefinition.i_go_to_status_and_API_Request_saved_in_JSON_File_without_charset(RBLStepDefinition.java:290)\r\n\tat ✽.I go to status \"/ILMAPI/LMAPI/STATUSCHECKTEST\" and \"post\" API Request saved in JSON File \"Status_I.json\" without charset(src/test/java/com/features/rbl/RBLApi.feature:30)\r\n",
+              "duration": 25779763600,
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "I go to status \"/ILMAPI/LMAPI/STATUSCHECKTEST\" and \"post\" API Request saved in JSON File \"Status_I.json\" without charset",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/ILMAPI/LMAPI/STATUSCHECKTEST\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"Status_I.json\"",
+                  "offset": 89
+                }
+              ],
+              "location": "RBLStepDefinition.i_go_to_status_and_API_Request_saved_in_JSON_File_without_charset(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "MANDATETYPE"
+                ]
+              },
+              {
+                "cells": [
+                  "I"
+                ]
+              },
+              {
+                "cells": [
+                  "D"
+                ]
+              },
+              {
+                "cells": [
+                  "N"
+                ]
+              },
+              {
+                "cells": [
+                  "R"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4501900,
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "I am validating object \"Status\" for String value \"Sent to Authorizer\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Status\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Sent to Authorizer\"",
+                  "offset": 49
+                }
+              ],
+              "location": "RBLStepDefinition.i_am_validating_object_for_String_value(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 957300,
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "Navigate To Specific RBL Portal",
+            "match": {
+              "location": "RBLStepDefinition.navigate_to_specific_rbl_portal()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11286400,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "Login to User Admin Using Following Credentials :",
+            "match": {
+              "location": "RBLStepDefinition.login_to_User_Admin_Using_Following_Credentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "USERNAME",
+                  "PASSWORD"
+                ]
+              },
+              {
+                "cells": [
+                  "rbladmin",
+                  "password@2"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1265800,
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "I check a transaction log inquiry using corporate reference number",
+            "match": {
+              "location": "RBLStepDefinition.i_check_a_transaction_log_inquiry_using_corporate_reference_number()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2081700,
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "I check a PPS log inquiry of above transaction, for acknowledgement sent to WU",
+            "match": {
+              "location": "RBLStepDefinition.i_check_a_PPS_log_inquiry_of_above_transaction_for_acknowledgement_sent_to_WU()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 752100,
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "I go to Transaction Dashborad for validating response status with application status",
+            "match": {
+              "location": "RBLStepDefinition.i_go_to_Transaction_Dashborad_for_validating_response_status_with_application_status()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1285800,
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "I am close browser",
+            "match": {
+              "location": "RBLStepDefinition.i_am_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RestApiSingle"
+          }
+        ]
+      }
+    ],
+    "name": "RBL - STP Workflow",
+    "description": "",
+    "id": "rbl---stp-workflow",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/features/rbl/RBLApi.feature",
+    "tags": []
+  }
+]

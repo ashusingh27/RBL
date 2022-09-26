@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="37.326391">
+<testcase classname="RBL - STP Workflow" name="Scanario_Id_STP" time="37.326391">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.rbl.util.RestAssuredCode.statusResponseProcess(RestAssuredCode.java:83)&#13;&#10;&#9;at com.stepDefinition.API.RBL.RBLStepDefinition.i_go_to_status_and_API_Request_saved_in_JSON_File_without_charset(RBLStepDefinition.java:290)&#13;&#10;&#9;at ✽.I go to status &quot;/ILMAPI/LMAPI/STATUSCHECKTEST&quot; and &quot;post&quot; API Request saved in JSON File &quot;Status_I.json&quot; without charset(src/test/java/com/features/rbl/RBLApi.feature:30)&#13;&#10;"><![CDATA[Given I am requesting "BaseURI".............................................passed
+When I want to "/ILMAPI/LMAPI/ADDTRANSACTIONTEST" and "post" API Request saved in JSON File "Payment_I.json" without charset.passed
+When I go to status "/ILMAPI/LMAPI/STATUSCHECKTEST" and "post" API Request saved in JSON File "Status_I.json" without charset.failed
+Then I am validating object "Status" for String value "Sent to Authorizer"..skipped
+When Navigate To Specific RBL Portal........................................skipped
+Then Login to User Admin Using Following Credentials :......................skipped
+Then I check a transaction log inquiry using corporate reference number.....skipped
+Then I check a PPS log inquiry of above transaction, for acknowledgement sent to WU.skipped
+Then I go to Transaction Dashborad for validating response status with application status.skipped
+Then I am close browser.....................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.rbl.util.RestAssuredCode.statusResponseProcess(RestAssuredCode.java:83)
+	at com.stepDefinition.API.RBL.RBLStepDefinition.i_go_to_status_and_API_Request_saved_in_JSON_File_without_charset(RBLStepDefinition.java:290)
+	at ✽.I go to status "/ILMAPI/LMAPI/STATUSCHECKTEST" and "post" API Request saved in JSON File "Status_I.json" without charset(src/test/java/com/features/rbl/RBLApi.feature:30)
+]]></failure>
+</testcase>
+</testsuite>

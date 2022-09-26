@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "AQMIT-DSK-10257",
+    "children" : [ {
+      "name" : "12972@AQMIT-DSK-10257.main(1)",
+      "children" : [ {
+        "name" : "Scanario_Duplicate",
+        "uid" : "c9c8b761c5ea26f7",
+        "parentUid" : "ec6ffa5e6a4ad3d52ef7ce1058dd0ad4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1600836120327,
+          "stop" : 1600836127846,
+          "duration" : 7519
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Scanario_Id_STP",
+        "uid" : "cadb54de28bb7342",
+        "parentUid" : "ec6ffa5e6a4ad3d52ef7ce1058dd0ad4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1600836106515,
+          "stop" : 1600836120219,
+          "duration" : 13704
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec6ffa5e6a4ad3d52ef7ce1058dd0ad4"
+    } ],
+    "uid" : "770071a662f97d50aceffd85c4f159d8"
+  } ]
+}

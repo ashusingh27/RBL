@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.285335">
+<testcase classname="RBL End To End flow" name="Rest Test" time="0.285335">
+<system-out><![CDATA[Given I am requesting "BaseURI".............................................skipped
+When I want to "/ILMAPI/LMAPI/ADDTRANSACTIONTEST" and "post" API Request saved in JSON File "Payment_I.json" without charset.skipped
+Then I want to "/ILMAPI/LMAPI/STATUSCHECKTEST" and "post" API Request saved in JSON File "Status_I.json" without charset.skipped
+]]></system-out>
+</testcase>
+</testsuite>

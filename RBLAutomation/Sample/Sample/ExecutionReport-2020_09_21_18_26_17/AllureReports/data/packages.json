@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "src.test.java.com.features.rbl.RBL - STP Workflow",
+    "children" : [ {
+      "name" : "Scanario_Technical_Error",
+      "uid" : "d8381f6689f87e53",
+      "parentUid" : "6bb6edef7cbad19291107ed3b1235776",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600712790304,
+        "stop" : 1600712801121,
+        "duration" : 10817
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "src.test.java.com.features.rbl.RBL - STP Workflow"
+  } ]
+}

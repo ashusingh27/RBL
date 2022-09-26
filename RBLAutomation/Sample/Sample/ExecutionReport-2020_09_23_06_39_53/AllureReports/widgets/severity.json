@@ -1,0 +1,21 @@
+[ {
+  "uid" : "28a4554d3dd9a80",
+  "name" : "Scanario_Duplicate",
+  "time" : {
+    "start" : 1600843223217,
+    "stop" : 1600843230963,
+    "duration" : 7746
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e6ac4b886eba6618",
+  "name" : "Scanario_Id_STP",
+  "time" : {
+    "start" : 1600843204495,
+    "stop" : 1600843223003,
+    "duration" : 18508
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

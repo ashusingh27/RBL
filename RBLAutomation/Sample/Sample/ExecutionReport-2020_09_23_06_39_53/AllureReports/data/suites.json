@@ -1,0 +1,33 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "RBL - STP Workflow",
+    "children" : [ {
+      "name" : "Scanario_Id_STP",
+      "uid" : "e6ac4b886eba6618",
+      "parentUid" : "0bee5048fe0bb68db64a463c7caf66ef",
+      "status" : "broken",
+      "time" : {
+        "start" : 1600843204495,
+        "stop" : 1600843223003,
+        "duration" : 18508
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Scanario_Duplicate",
+      "uid" : "28a4554d3dd9a80",
+      "parentUid" : "0bee5048fe0bb68db64a463c7caf66ef",
+      "status" : "broken",
+      "time" : {
+        "start" : 1600843223217,
+        "stop" : 1600843230963,
+        "duration" : 7746
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0bee5048fe0bb68db64a463c7caf66ef"
+  } ]
+}

@@ -1,0 +1,167 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6288313300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am requesting \"BaseURI\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BaseURI\"",
+                  "offset": 16
+                }
+              ],
+              "location": "RBLStepDefinition.i_am_requesting(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 47,
+        "name": "Scanario_Invalid_Beneficiary_name",
+        "description": "",
+        "id": "rbl---stp-workflow;scanario-invalid-beneficiary-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8032841600,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I want to \"/ILMAPI/LMAPI/ADDTRANSACTIONTEST\" and \"post\" API Request saved in JSON File \"Payment_I.json\" without charset",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/ILMAPI/LMAPI/ADDTRANSACTIONTEST\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Payment_I.json\"",
+                  "offset": 87
+                }
+              ],
+              "location": "RBLStepDefinition.i_want_to_and_API_Request_saved_in_JSON_File_without_charset(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "MANDATETYPE",
+                  "AMOUNT",
+                  "BENEFICIARYACCOUNTNO",
+                  "BENEFICIARYIFSC",
+                  "BENEFICIARYACCOUNTHOLDERNAME",
+                  "REMITTERNAME"
+                ]
+              },
+              {
+                "cells": [
+                  "R",
+                  "200010",
+                  "409000015845",
+                  "ICIC0000555",
+                  "D123",
+                  "Dasi"
+                ]
+              },
+              {
+                "cells": [
+                  "N",
+                  "2300",
+                  "409000015845",
+                  "ICIC0000555",
+                  "D123",
+                  "Dasi"
+                ]
+              },
+              {
+                "cells": [
+                  "D",
+                  "2300",
+                  "409000015845",
+                  "RATN0000001",
+                  "D123",
+                  "Dasi"
+                ]
+              },
+              {
+                "cells": [
+                  "I",
+                  "2300",
+                  "112101505172011",
+                  "SIMB0002233",
+                  "D123",
+                  "Dasi"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 582431700,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I am validating object \"[0].ErrorDesc\" for String value \"Error in beneAccHolderName,\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"[0].ErrorDesc\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Error in beneAccHolderName,\"",
+                  "offset": 56
+                }
+              ],
+              "location": "RBLStepDefinition.i_am_validating_object_for_String_value(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 325697900,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I am close browser",
+            "match": {
+              "location": "RBLStepDefinition.i_am_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InvalidData"
+          }
+        ]
+      }
+    ],
+    "name": "RBL - STP Workflow",
+    "description": "",
+    "id": "rbl---stp-workflow",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/features/rbl/RBLApi.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,223 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6333585700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am requesting \"BaseURI\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BaseURI\"",
+                  "offset": 16
+                }
+              ],
+              "location": "RBLStepDefinition.i_am_requesting(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 140,
+        "name": "STP_Other_then_Technical Error",
+        "description": "",
+        "id": "rbl---stp-workflow;stp-other-then-technical-error",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7305956900,
+              "status": "passed"
+            },
+            "line": 141,
+            "name": "I want to \"/ILMAPI/LMAPI/ADDTRANSACTIONTEST\" and \"post\" API Request saved in JSON File \"Payment_I.json\" without charset",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/ILMAPI/LMAPI/ADDTRANSACTIONTEST\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Payment_I.json\"",
+                  "offset": 87
+                }
+              ],
+              "location": "RBLStepDefinition.i_want_to_and_API_Request_saved_in_JSON_File_without_charset(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "MANDATETYPE",
+                  "AMOUNT",
+                  "BENEFICIARYACCOUNTNO",
+                  "BENEFICIARYIFSC",
+                  "BENEFICIARYACCOUNTHOLDERNAME",
+                  "REMITTERNAME"
+                ]
+              },
+              {
+                "cells": [
+                  "R",
+                  "200010",
+                  "115",
+                  "SIMB0002233",
+                  "Dasi",
+                  "Dasi"
+                ]
+              },
+              {
+                "cells": [
+                  "N",
+                  "2300",
+                  "112",
+                  "SIMB0002233",
+                  "Dasi",
+                  "Dasi"
+                ]
+              },
+              {
+                "cells": [
+                  "D",
+                  "2300",
+                  "1111111111",
+                  "RATN0000001",
+                  "Dasi",
+                  "Dasi"
+                ]
+              },
+              {
+                "cells": [
+                  "I",
+                  "2300",
+                  "111",
+                  "SIMB0002233",
+                  "Dasi",
+                  "Dasi"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8658898900,
+              "status": "passed"
+            },
+            "line": 147,
+            "name": "I want to \"/ILMAPI/LMAPI/ADDTRANSACTIONTEST\" and \"post\" API Request saved in JSON File \"Payment_I.json\" with duplicate data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/ILMAPI/LMAPI/ADDTRANSACTIONTEST\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Payment_I.json\"",
+                  "offset": 87
+                }
+              ],
+              "location": "RBLStepDefinition.i_want_to_and_API_Request_saved_in_JSON_File_with_duplicate_data(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "MANDATETYPE",
+                  "AMOUNT",
+                  "BENEFICIARYACCOUNTNO",
+                  "BENEFICIARYIFSC",
+                  "BENEFICIARYACCOUNTHOLDERNAME",
+                  "REMITTERNAME"
+                ]
+              },
+              {
+                "cells": [
+                  "N",
+                  "2300",
+                  "409000015845",
+                  "ICIC0000555",
+                  "Dasi",
+                  "Dasi"
+                ]
+              },
+              {
+                "cells": [
+                  "D",
+                  "2300",
+                  "409000015845",
+                  "RATN0000001",
+                  "Dasi",
+                  "Dasi"
+                ]
+              },
+              {
+                "cells": [
+                  "I",
+                  "2300",
+                  "112101505172011",
+                  "SIMB0002233",
+                  "Dasi",
+                  "Dasi"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4837000,
+              "status": "passed"
+            },
+            "line": 153,
+            "name": "I am validating object \"[0].ErrorDesc\" for String value \"Duplicate Transaction Id\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"[0].ErrorDesc\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Duplicate Transaction Id\"",
+                  "offset": 56
+                }
+              ],
+              "location": "RBLStepDefinition.i_am_validating_object_for_String_value(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@OtherTechnicalError"
+          }
+        ]
+      }
+    ],
+    "name": "RBL - STP Workflow",
+    "description": "",
+    "id": "rbl---stp-workflow",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/features/rbl/RBLApi.feature",
+    "tags": []
+  }
+]

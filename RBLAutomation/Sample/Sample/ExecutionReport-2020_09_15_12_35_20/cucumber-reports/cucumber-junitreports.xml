@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.89486">
+<testcase classname="RBL - STP Workflow" name="Scanario_Invalid_Beneficiary_name" time="14.89486">
+<system-out><![CDATA[Given I am requesting "BaseURI".............................................passed
+When I want to "/ILMAPI/LMAPI/ADDTRANSACTIONTEST" and "post" API Request saved in JSON File "Payment_I.json" without charset.passed
+Then I am validating object "[0].ErrorDesc" for String value "Error in beneAccHolderName,"..passed
+]]></system-out>
+</testcase>
+</testsuite>

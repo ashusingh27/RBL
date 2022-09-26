@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="22.535915">
+<testcase classname="RBL - STP Workflow" name="STP_Other_then_Technical Error" time="22.535915">
+<system-out><![CDATA[Given I am requesting "BaseURI".............................................passed
+When I want to "/ILMAPI/LMAPI/ADDTRANSACTIONTEST" and "post" API Request saved in JSON File "Payment_I.json" without charset.passed
+When I want to "/ILMAPI/LMAPI/ADDTRANSACTIONTEST" and "post" API Request saved in JSON File "Payment_I.json" with duplicate data.passed
+Then I am validating object "[0].ErrorDesc" for String value "Duplicate Transaction Id"..passed
+]]></system-out>
+</testcase>
+</testsuite>

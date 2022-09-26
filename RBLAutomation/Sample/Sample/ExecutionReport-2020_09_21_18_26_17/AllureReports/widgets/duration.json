@@ -1,0 +1,11 @@
+[ {
+  "uid" : "d8381f6689f87e53",
+  "name" : "Scanario_Technical_Error",
+  "time" : {
+    "start" : 1600712790304,
+    "stop" : 1600712801121,
+    "duration" : 10817
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

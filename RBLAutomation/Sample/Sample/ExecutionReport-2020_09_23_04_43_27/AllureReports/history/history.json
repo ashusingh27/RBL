@@ -1,0 +1,42 @@
+{
+  "77e4209fe071d66b78072d548e3331c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8260a8ef680b2efd",
+      "status" : "broken",
+      "statusDetails" : "Failed to parse the JSON document",
+      "time" : {
+        "start" : 1600836217579,
+        "stop" : 1600836231393,
+        "duration" : 13814
+      }
+    } ]
+  },
+  "54c9a73ec3b301827c9e01719427173e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f2c190f8dbc7e9f7",
+      "status" : "broken",
+      "statusDetails" : "Failed to parse the JSON document",
+      "time" : {
+        "start" : 1600836231498,
+        "stop" : 1600836238965,
+        "duration" : 7467
+      }
+    } ]
+  }
+}

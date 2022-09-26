@@ -1,0 +1,201 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6275322000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am requesting \"BaseURI\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BaseURI\"",
+                  "offset": 16
+                }
+              ],
+              "location": "RBLStepDefinition.i_am_requesting(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 46,
+        "name": "RBL - STP Bulk transaction for invalid data",
+        "description": "",
+        "id": "rbl---stp-bulk-transaction-workflow;rbl---stp-bulk-transaction-for-invalid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16837142900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I want to execute payment \"Bulk Transaction for N with balance above defined threshold\" using excel file \"BalanceAboveDefinedThreshold-N\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bulk Transaction for N with balance above defined threshold\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"BalanceAboveDefinedThreshold-N\"",
+                  "offset": 105
+                }
+              ],
+              "location": "RBL_BulkStepDefinition.i_want_to_execute_payment_using_excel_file(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 242933504400,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I want to execute status rest api",
+            "match": {
+              "location": "RBL_BulkStepDefinition.i_want_to_execute_status_rest_api()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 404560400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I want to validate error massage for \"Bulk Transaction for N with balance above defined threshold\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bulk Transaction for N with balance above defined threshold\"",
+                  "offset": 37
+                }
+              ],
+              "location": "RBL_BulkStepDefinition.i_want_to_validate_error_massage_for(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BalanceAboveDefinedThreshold"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5501390800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am requesting \"BaseURI\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BaseURI\"",
+                  "offset": 16
+                }
+              ],
+              "location": "RBLStepDefinition.i_am_requesting(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 47,
+        "name": "RBL - STP Bulk transaction for invalid data",
+        "description": "",
+        "id": "rbl---stp-bulk-transaction-workflow;rbl---stp-bulk-transaction-for-invalid-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14881376200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I want to execute payment \"Bulk Transaction for R with balance above defined threshold\" using excel file \"BalanceAboveDefinedThreshold-R\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bulk Transaction for R with balance above defined threshold\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"BalanceAboveDefinedThreshold-R\"",
+                  "offset": 105
+                }
+              ],
+              "location": "RBL_BulkStepDefinition.i_want_to_execute_payment_using_excel_file(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 247138711200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I want to execute status rest api",
+            "match": {
+              "location": "RBL_BulkStepDefinition.i_want_to_execute_status_rest_api()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 115452200,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I want to validate error massage for \"Bulk Transaction for R with balance above defined threshold\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bulk Transaction for R with balance above defined threshold\"",
+                  "offset": 37
+                }
+              ],
+              "location": "RBL_BulkStepDefinition.i_want_to_validate_error_massage_for(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BalanceAboveDefinedThreshold"
+          }
+        ]
+      }
+    ],
+    "name": "RBL - STP Bulk transaction Workflow",
+    "description": "",
+    "id": "rbl---stp-bulk-transaction-workflow",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/features/rbl/RBL_Bulk.feature",
+    "tags": []
+  }
+]

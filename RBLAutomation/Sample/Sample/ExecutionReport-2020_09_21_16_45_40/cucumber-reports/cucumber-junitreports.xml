@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="534.321315">
+<testcase classname="RBL - STP Bulk transaction Workflow" name="RBL - STP Bulk transaction for invalid data" time="266.675635">
+<system-out><![CDATA[Given I am requesting "BaseURI".............................................passed
+When I want to execute payment "Bulk Transaction for N with balance above defined threshold" using excel file "BalanceAboveDefinedThreshold-N".passed
+Then I want to execute status rest api......................................passed
+Then I want to validate error massage for "Bulk Transaction for N with balance above defined threshold".passed
+]]></system-out>
+</testcase>
+<testcase classname="RBL - STP Bulk transaction Workflow" name="RBL - STP Bulk transaction for invalid data 2" time="267.64568">
+<system-out><![CDATA[Given I am requesting "BaseURI".............................................passed
+When I want to execute payment "Bulk Transaction for R with balance above defined threshold" using excel file "BalanceAboveDefinedThreshold-R".passed
+Then I want to execute status rest api......................................passed
+Then I want to validate error massage for "Bulk Transaction for R with balance above defined threshold".passed
+]]></system-out>
+</testcase>
+</testsuite>

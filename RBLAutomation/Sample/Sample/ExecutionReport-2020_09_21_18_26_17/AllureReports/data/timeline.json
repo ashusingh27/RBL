@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "AQMIT-DSK-10257",
+    "children" : [ {
+      "name" : "17256@AQMIT-DSK-10257.main(1)",
+      "children" : [ {
+        "name" : "Scanario_Technical_Error",
+        "uid" : "d8381f6689f87e53",
+        "parentUid" : "2b1f6f84578b2615d3b4acde0f789c1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600712790304,
+          "stop" : 1600712801121,
+          "duration" : 10817
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2b1f6f84578b2615d3b4acde0f789c1e"
+    } ],
+    "uid" : "770071a662f97d50aceffd85c4f159d8"
+  } ]
+}

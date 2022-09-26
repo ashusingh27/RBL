@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="78.411723">
+<testcase classname="RBL - STP Bulk transaction Workflow" name="RBL - STP Bulk transaction for invalid data" time="67.265442">
+<system-out><![CDATA[Given I am requesting "BaseURI".............................................passed
+When I want to execute payment "Bulk Transaction for N with beneficary name contain caution word" using excel file "InvalidBeneficiaryAccountNo".passed
+Then I want to validate error massage for "Bulk Transaction for N with beneficary name contain caution word".passed
+]]></system-out>
+</testcase>
+<testcase classname="RBL - STP Bulk transaction Workflow" name="RBL - STP Bulk transaction for invalid data 2" time="11.146281">
+<system-out><![CDATA[Given I am requesting "BaseURI".............................................passed
+When I want to execute payment "Bulk Transaction for N with remitter name contain caution word" using excel file "InvalidRemitterName".passed
+Then I want to validate error massage for "Bulk Transaction for N with remitter name contain caution word".passed
+]]></system-out>
+</testcase>
+</testsuite>

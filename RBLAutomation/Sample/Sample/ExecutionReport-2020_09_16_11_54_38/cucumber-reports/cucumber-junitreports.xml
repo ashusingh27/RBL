@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0.307061">
+<testcase classname="Example" name="Scanario_Id_STP" time="0.307061">
+<skipped><![CDATA[When I want to "/ILMAPI/LMAPI/ADDTRANSACTIONTEST" and "post" API Request for "IMPS".undefined
+When I go to status "/ILMAPI/LMAPI/STATUSCHECKTEST" and "post" API Request for "IMPS".undefined
+Then I am fetch Status response.............................................undefined
+When Navigate To Specific RBL Portal........................................undefined
+Then Login to User Admin Using Following Credentials :......................undefined
+Then I check a transaction log inquiry using corporate reference number.....undefined
+Then I check a PPS log inquiry of above transaction, for acknowledgement sent to WU.undefined
+Then I go to Transaction Dashborad for validating response status with application status.undefined
+Then I am close browser.....................................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="2" time="0.303147">
+<testcase classname="RBL - STP Bulk transaction Workflow" name="RBL - STP Bulk transaction" time="0.294895">
+<skipped><![CDATA[Given I am requesting "BaseURI".............................................skipped
+When I want to execute payment "Bulk Transaction for N" using excel file "RBLBulkData".skipped
+Then I want to execute status rest api......................................undefined
+Then I Check whether the transaction appears in mandate wise Report or transaction count report under MIS.skipped
+Then I am close browser.....................................................skipped
+]]></skipped>
+</testcase>
+<testcase classname="RBL - STP Bulk transaction Workflow" name="RBL - STP Bulk transaction 2" time="0.008252">
+<skipped><![CDATA[Given I am requesting "BaseURI".............................................skipped
+When I want to execute payment "Bulk Transaction for D" using excel file "RBLBulkData-D".skipped
+Then I want to execute status rest api......................................undefined
+Then I Check whether the transaction appears in mandate wise Report or transaction count report under MIS.skipped
+Then I am close browser.....................................................skipped
+]]></skipped>
+</testcase>
+</testsuite>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="56.92021">
+<testcase classname="RBL End To End flow" name="TC_001_STP_MandateType-I" time="24.219935">
+<system-out><![CDATA[Given I am requesting "BaseURI".............................................passed
+When I go to "/ILMAPI/LMAPI/ADDTRANSACTIONTEST" and "post" API Request saved in JSON File "Payment_I.json" without charset.passed
+Then I am validating object "[0].Status" for String value "Transaction Received"..passed
+When I go to "/ILMAPI/LMAPI/STATUSCHECKTEST" and "post" API Request saved in JSON File "Status_I.json" without charset.passed
+Then I am validating object "Status" for String value "Sent to Authorizer"..passed
+When Navigate To Specific RBL Portal........................................passed
+Then Login to User Admin Using Following Credentials :......................passed
+Then I go to "MIS"..........................................................passed
+Then I go to Bank User Dashboard............................................passed
+Then I am validating response status with application status................passed
+Then I am close browser.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="RBL End To End flow" name="TC_002_STP_MandateType-N" time="15.941">
+<system-out><![CDATA[Given I am requesting "BaseURI".............................................passed
+When I go to "/ILMAPI/LMAPI/ADDTRANSACTIONTEST" and "post" API Request saved in JSON File "Payment_N.json" without charset.passed
+Then I am validating object "[0].Status" for String value "Transaction Received"..passed
+When I go to "/ILMAPI/LMAPI/STATUSCHECKTEST" and "post" API Request saved in JSON File "Status_N.json" without charset.passed
+Then I am validating object "Status" for String value "Sent to Authorizer"..passed
+When Navigate To Specific RBL Portal........................................passed
+Then Login to User Admin Using Following Credentials :......................passed
+Then I go to "MIS"..........................................................passed
+Then I go to Bank User Dashboard............................................passed
+Then I am validating response status with application status................passed
+Then I am close browser.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="RBL End To End flow" name="TC_003_STP_MandateType-R" time="16.759275">
+<system-out><![CDATA[Given I am requesting "BaseURI".............................................passed
+When I go to "/ILMAPI/LMAPI/ADDTRANSACTIONTEST" and "post" API Request saved in JSON File "Payment_R.json" without charset.passed
+Then I am validating object "[0].Status" for String value "Transaction Received"..passed
+When I go to "/ILMAPI/LMAPI/STATUSCHECKTEST" and "post" API Request saved in JSON File "Status_R.json" without charset.passed
+Then I am validating object "Status" for String value "Sent to Authorizer"..passed
+When Navigate To Specific RBL Portal........................................passed
+Then Login to User Admin Using Following Credentials :......................passed
+Then I go to "MIS"..........................................................passed
+Then I go to Bank User Dashboard............................................passed
+Then I am validating response status with application status................passed
+Then I am close browser.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

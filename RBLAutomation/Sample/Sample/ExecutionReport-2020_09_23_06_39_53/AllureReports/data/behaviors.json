@@ -1,0 +1,41 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "RBL - STP Workflow",
+    "children" : [ {
+      "name" : "Scanario_Id_STP",
+      "children" : [ {
+        "name" : "Scanario_Id_STP",
+        "uid" : "e6ac4b886eba6618",
+        "parentUid" : "be77e279e8e3b11033bdedb8fc5816c8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1600843204495,
+          "stop" : 1600843223003,
+          "duration" : 18508
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "be77e279e8e3b11033bdedb8fc5816c8"
+    }, {
+      "name" : "Scanario_Duplicate",
+      "children" : [ {
+        "name" : "Scanario_Duplicate",
+        "uid" : "28a4554d3dd9a80",
+        "parentUid" : "473cd38b7b848f2d3fd5f3745f31592d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1600843223217,
+          "stop" : 1600843230963,
+          "duration" : 7746
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "473cd38b7b848f2d3fd5f3745f31592d"
+    } ],
+    "uid" : "01e06886036833a3ff8a1ad5d545ae8c"
+  } ]
+}

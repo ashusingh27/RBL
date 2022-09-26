@@ -1,0 +1,40 @@
+{
+	"CorporateId": "AQMF001",
+	"TimeStamp": "1560859427549",
+	"UserId": "7485136194",
+	"Token": "2420246456",
+	"Transaction": [
+		{
+			"TransactionDetails": {
+				"BeneficiaryAccountNo": "409000015845",
+				"BeneficiaryIFSC": "ICIC0000555",
+				"MandateType": "R",
+				"PurposeCode": "P1301",
+				"PurposeDescription": "Family M",
+				"TransactionDate": "10/09/2020",
+				"TransactionReferenceNo": "1192840489367",
+				"TransferAmount": "200010"
+			},
+			"RemitterDetailsJobj": {
+				"RemitterAddress1": "Goregaon",
+				"RemitterCity": "MumbaiCity",
+				"RemitterState": "MHCity",
+				"RemitterCountry": "AO",
+				"RemitterEmailId": "SBINHAMMADI@GMAIL.COM",
+				"RemitterId": "AQMF001",
+				"RemitterMobileNo": "27367222",
+				"RemitterName": "Dasi",
+				"RemitterZipCode": "629192890"
+			},
+			"BeneficiaryDetailsJobj": {
+				"BeneficiaryAccountHolderName": "Dasi",
+				"BeneficiaryAddress1": "Airoli",
+				"BeneficiaryAddress2": "AD",
+				"BeneficiaryAddress3": "IN",
+				"BeneficiaryEmailId": "abcdef@sign.com",
+				"BeneficiaryMobileNo": "2736728",
+				"BeneficiaryZipNo": "2313333"
+			}
+		}
+	]
+}	

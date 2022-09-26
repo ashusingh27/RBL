@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="762.584809">
+<testcase classname="RBL - STP Bulk transaction Workflow" name="RBL - STP Bulk transaction" time="128.103261">
+<system-out><![CDATA[Given I am requesting "BaseURI".............................................passed
+When I want to execute payment "Bulk Transaction for N" using excel file "RBLBulkData".passed
+Then I want to execute status rest api......................................passed
+Then I am fetch Status response.............................................passed
+When Navigate To Specific RBL Portal........................................passed
+Then Login to User Admin Using Following Credentials :......................passed
+Then I Check whether the transaction appears in mandate wise Report or transaction count report under MIS.passed
+Then I am close browser.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="RBL - STP Bulk transaction Workflow" name="RBL - STP Bulk transaction 2" time="356.199335">
+<system-out><![CDATA[Given I am requesting "BaseURI".............................................passed
+When I want to execute payment "Bulk Transaction for D" using excel file "RBLBulkData-D".passed
+Then I want to execute status rest api......................................passed
+Then I am fetch Status response.............................................passed
+When Navigate To Specific RBL Portal........................................passed
+Then Login to User Admin Using Following Credentials :......................passed
+Then I Check whether the transaction appears in mandate wise Report or transaction count report under MIS.passed
+Then I am close browser.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="RBL - STP Bulk transaction Workflow" name="RBL - STP Bulk transaction 3" time="131.32907">
+<system-out><![CDATA[Given I am requesting "BaseURI".............................................passed
+When I want to execute payment "Bulk Transaction for I" using excel file "RBLBulkData-I".passed
+Then I want to execute status rest api......................................passed
+Then I am fetch Status response.............................................passed
+When Navigate To Specific RBL Portal........................................passed
+Then Login to User Admin Using Following Credentials :......................passed
+Then I Check whether the transaction appears in mandate wise Report or transaction count report under MIS.passed
+Then I am close browser.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="RBL - STP Bulk transaction Workflow" name="RBL - STP Bulk transaction 4" time="146.953143">
+<system-out><![CDATA[Given I am requesting "BaseURI".............................................passed
+When I want to execute payment "Bulk Transaction for I,N" using excel file "RBLBulkData-I-N".passed
+Then I want to execute status rest api......................................passed
+Then I am fetch Status response.............................................passed
+When Navigate To Specific RBL Portal........................................passed
+Then Login to User Admin Using Following Credentials :......................passed
+Then I Check whether the transaction appears in mandate wise Report or transaction count report under MIS.passed
+Then I am close browser.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

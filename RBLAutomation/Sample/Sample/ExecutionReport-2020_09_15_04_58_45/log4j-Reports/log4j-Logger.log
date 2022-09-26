@@ -1,0 +1,162 @@
+2020-09-12 20:47:54 INFO  Utilities:158 - Step Description--> null-->Verify following tags || Expected Result : Sent to Authorizer || Actual Result : Sent to Authorizer
+2020-09-14 15:02:07 INFO  Utilities:158 - Step Description--> null-->Verify following tags || Expected Result : Sent to Authorizer || Actual Result : Sent to Authorizer
+2020-09-14 15:02:14 INFO  Utilities:158 - Step Description--> null-->Open URL - 'https://rbllastmile.remit.in/onlinetransfer/secure/login.jsp'.
+2020-09-14 15:02:14 INFO  Utilities:158 - Step Description--> null-->Set User Name in Login Page || Input Value : rbladmin
+2020-09-14 15:02:14 INFO  Utilities:158 - Step Description--> null-->Set Password in Login Page || Input Value : password@2
+2020-09-14 15:02:16 INFO  Utilities:158 - Step Description--> null-->Click on login Button on Admin Login Page
+2020-09-14 15:02:18 INFO  Utilities:158 - Step Description--> null-->Click on Logs button
+2020-09-14 15:02:19 INFO  Utilities:158 - Step Description--> null-->Click on PPS Logs button
+2020-09-14 15:05:02 ERROR Utilities:166 - Step Description--> null-->fill RequestNo
+2020-09-14 15:05:02 ERROR Utilities:167 - Failure URl :-------------> null-->https://rbllastmile.remit.in/onlinetransfer/secure/home.jsp#
+2020-09-14 15:05:12 INFO  Utilities:158 - Step Description--> null-->Verify following tags || Expected Result : Sent to Authorizer || Actual Result : Sent to Authorizer
+2020-09-14 15:05:13 INFO  Utilities:158 - Step Description--> null-->Open URL - 'https://rbllastmile.remit.in/onlinetransfer/secure/login.jsp'.
+2020-09-14 15:05:13 INFO  Utilities:158 - Step Description--> null-->Set User Name in Login Page || Input Value : rbladmin
+2020-09-14 15:05:13 INFO  Utilities:158 - Step Description--> null-->Set Password in Login Page || Input Value : password@2
+2020-09-14 15:05:14 INFO  Utilities:158 - Step Description--> null-->Click on login Button on Admin Login Page
+2020-09-14 15:05:16 INFO  Utilities:158 - Step Description--> null-->Click on Logs button
+2020-09-14 15:05:17 INFO  Utilities:158 - Step Description--> null-->Click on PPS Logs button
+2020-09-14 15:06:12 INFO  Utilities:158 - Step Description--> null-->Verify following tags || Expected Result : Sent to Authorizer || Actual Result : Sent to Authorizer
+2020-09-14 15:06:13 INFO  Utilities:158 - Step Description--> null-->Open URL - 'https://rbllastmile.remit.in/onlinetransfer/secure/login.jsp'.
+2020-09-14 15:06:13 INFO  Utilities:158 - Step Description--> null-->Set User Name in Login Page || Input Value : rbladmin
+2020-09-14 15:06:13 INFO  Utilities:158 - Step Description--> null-->Set Password in Login Page || Input Value : password@2
+2020-09-14 15:06:14 INFO  Utilities:158 - Step Description--> null-->Click on login Button on Admin Login Page
+2020-09-14 15:06:16 INFO  Utilities:158 - Step Description--> null-->Click on Logs button
+2020-09-14 15:06:17 INFO  Utilities:158 - Step Description--> null-->Click on PPS Logs button
+2020-09-14 15:06:18 INFO  Utilities:158 - Step Description--> null-->Swtich to frame
+2020-09-14 15:06:18 INFO  Utilities:158 - Step Description--> null-->fill RequestNo
+2020-09-14 15:06:19 INFO  Utilities:158 - Step Description--> null-->Click on submit Button
+2020-09-14 15:13:09 INFO  Utilities:158 - Step Description--> null-->Verify following tags || Expected Result : Sent to Authorizer || Actual Result : Sent to Authorizer
+2020-09-14 15:13:12 INFO  Utilities:158 - Step Description--> null-->Open URL - 'https://rbllastmile.remit.in/onlinetransfer/secure/login.jsp'.
+2020-09-14 15:13:13 INFO  Utilities:158 - Step Description--> null-->Set User Name in Login Page || Input Value : rbladmin
+2020-09-14 15:13:13 INFO  Utilities:158 - Step Description--> null-->Set Password in Login Page || Input Value : password@2
+2020-09-14 15:13:14 INFO  Utilities:158 - Step Description--> null-->Click on login Button on Admin Login Page
+2020-09-14 15:13:16 INFO  Utilities:158 - Step Description--> null-->Click on Logs button
+2020-09-14 15:13:17 INFO  Utilities:158 - Step Description--> null-->Click on PPS Logs button
+2020-09-14 15:13:17 INFO  Utilities:158 - Step Description--> null-->Swtich to frame
+2020-09-14 15:13:17 INFO  Utilities:158 - Step Description--> null-->fill RequestNo
+2020-09-14 15:13:19 INFO  Utilities:158 - Step Description--> null-->Click on submit Button
+2020-09-14 15:13:28 INFO  Utilities:158 - Step Description--> null-->Verify following tags || Expected Result : Sent to Authorizer || Actual Result : Sent to Authorizer
+2020-09-14 15:13:29 INFO  Utilities:158 - Step Description--> null-->Open URL - 'https://rbllastmile.remit.in/onlinetransfer/secure/login.jsp'.
+2020-09-14 15:13:29 INFO  Utilities:158 - Step Description--> null-->Set User Name in Login Page || Input Value : rbladmin
+2020-09-14 15:13:29 INFO  Utilities:158 - Step Description--> null-->Set Password in Login Page || Input Value : password@2
+2020-09-14 15:13:30 INFO  Utilities:158 - Step Description--> null-->Click on login Button on Admin Login Page
+2020-09-14 15:13:32 INFO  Utilities:158 - Step Description--> null-->Click on Logs button
+2020-09-14 15:13:33 INFO  Utilities:158 - Step Description--> null-->Click on PPS Logs button
+2020-09-14 15:13:33 INFO  Utilities:158 - Step Description--> null-->Swtich to frame
+2020-09-14 15:13:33 INFO  Utilities:158 - Step Description--> null-->fill RequestNo
+2020-09-14 15:13:35 INFO  Utilities:158 - Step Description--> null-->Click on submit Button
+2020-09-14 15:16:18 INFO  Utilities:158 - Step Description--> null-->Verify following tags || Expected Result : Sent to Authorizer || Actual Result : Sent to Authorizer
+2020-09-14 15:16:18 INFO  Utilities:158 - Step Description--> null-->Open URL - 'https://rbllastmile.remit.in/onlinetransfer/secure/login.jsp'.
+2020-09-14 15:16:19 INFO  Utilities:158 - Step Description--> null-->Set User Name in Login Page || Input Value : rbladmin
+2020-09-14 15:16:19 INFO  Utilities:158 - Step Description--> null-->Set Password in Login Page || Input Value : password@2
+2020-09-14 15:16:20 INFO  Utilities:158 - Step Description--> null-->Click on login Button on Admin Login Page
+2020-09-14 15:16:21 INFO  Utilities:158 - Step Description--> null-->Click on Logs button
+2020-09-14 15:16:23 INFO  Utilities:158 - Step Description--> null-->Click on PPS Logs button
+2020-09-14 15:16:23 INFO  Utilities:158 - Step Description--> null-->Swtich to frame
+2020-09-14 15:16:23 INFO  Utilities:158 - Step Description--> null-->fill RequestNo
+2020-09-14 15:16:28 INFO  Utilities:158 - Step Description--> null-->Click on submit Button
+2020-09-14 15:16:52 INFO  Utilities:158 - Step Description--> null-->Verify following tags || Expected Result : Sent to Authorizer || Actual Result : Sent to Authorizer
+2020-09-14 15:16:53 INFO  Utilities:158 - Step Description--> null-->Open URL - 'https://rbllastmile.remit.in/onlinetransfer/secure/login.jsp'.
+2020-09-14 15:16:53 INFO  Utilities:158 - Step Description--> null-->Set User Name in Login Page || Input Value : rbladmin
+2020-09-14 15:16:53 INFO  Utilities:158 - Step Description--> null-->Set Password in Login Page || Input Value : password@2
+2020-09-14 15:16:54 INFO  Utilities:158 - Step Description--> null-->Click on login Button on Admin Login Page
+2020-09-14 15:16:57 INFO  Utilities:158 - Step Description--> null-->Click on Logs button
+2020-09-14 15:16:58 INFO  Utilities:158 - Step Description--> null-->Click on PPS Logs button
+2020-09-14 15:16:58 INFO  Utilities:158 - Step Description--> null-->Swtich to frame
+2020-09-14 15:16:59 INFO  Utilities:158 - Step Description--> null-->fill RequestNo
+2020-09-14 15:17:00 INFO  Utilities:158 - Step Description--> null-->Click on submit Button
+2020-09-14 15:19:58 INFO  Utilities:158 - Step Description--> null-->Verify following tags || Expected Result : Sent to Authorizer || Actual Result : Sent to Authorizer
+2020-09-14 15:20:03 INFO  Utilities:158 - Step Description--> null-->Open URL - 'https://rbllastmile.remit.in/onlinetransfer/secure/login.jsp'.
+2020-09-14 15:20:04 INFO  Utilities:158 - Step Description--> null-->Set User Name in Login Page || Input Value : rbladmin
+2020-09-14 15:20:04 INFO  Utilities:158 - Step Description--> null-->Set Password in Login Page || Input Value : password@2
+2020-09-14 15:20:05 INFO  Utilities:158 - Step Description--> null-->Click on login Button on Admin Login Page
+2020-09-14 15:20:07 INFO  Utilities:158 - Step Description--> null-->Click on Logs button
+2020-09-14 15:20:08 INFO  Utilities:158 - Step Description--> null-->Click on PPS Logs button
+2020-09-14 15:20:08 INFO  Utilities:158 - Step Description--> null-->Swtich to frame
+2020-09-14 15:20:08 INFO  Utilities:158 - Step Description--> null-->fill RequestNo
+2020-09-14 15:20:10 INFO  Utilities:158 - Step Description--> null-->Click on submit Button
+2020-09-14 15:35:41 INFO  Utilities:158 - Step Description--> null-->Open URL - 'https://rbllastmile.remit.in/onlinetransfer/secure/login.jsp'.
+2020-09-14 15:35:41 INFO  Utilities:158 - Step Description--> null-->Set User Name in Login Page || Input Value : rbladmin
+2020-09-14 15:35:41 INFO  Utilities:158 - Step Description--> null-->Set Password in Login Page || Input Value : password@2
+2020-09-14 15:35:42 INFO  Utilities:158 - Step Description--> null-->Click on login Button on Admin Login Page
+2020-09-14 15:35:44 INFO  Utilities:158 - Step Description--> null-->Click on Logs button
+2020-09-14 15:35:45 INFO  Utilities:158 - Step Description--> null-->Click on PPS Logs button
+2020-09-14 15:35:45 INFO  Utilities:158 - Step Description--> null-->Swtich to frame
+2020-09-14 15:35:45 INFO  Utilities:158 - Step Description--> null-->fill RequestNo
+2020-09-14 15:35:47 INFO  Utilities:158 - Step Description--> null-->Click on submit Button
+2020-09-14 15:44:19 INFO  Utilities:158 - Step Description--> null-->Open URL - 'https://rbllastmile.remit.in/onlinetransfer/secure/login.jsp'.
+2020-09-14 15:44:19 INFO  Utilities:158 - Step Description--> null-->Set User Name in Login Page || Input Value : rbladmin
+2020-09-14 15:44:19 INFO  Utilities:158 - Step Description--> null-->Set Password in Login Page || Input Value : password@2
+2020-09-14 15:44:20 INFO  Utilities:158 - Step Description--> null-->Click on login Button on Admin Login Page
+2020-09-14 15:44:23 INFO  Utilities:158 - Step Description--> null-->Click on Logs button
+2020-09-14 15:44:24 INFO  Utilities:158 - Step Description--> null-->Click on PPS Logs button
+2020-09-14 15:44:24 INFO  Utilities:158 - Step Description--> null-->Swtich to frame
+2020-09-14 15:44:24 INFO  Utilities:158 - Step Description--> null-->fill RequestNo
+2020-09-14 15:44:29 INFO  Utilities:158 - Step Description--> null-->Click on submit Button
+2020-09-14 15:48:34 INFO  Utilities:158 - Step Description--> null-->Open URL - 'https://rbllastmile.remit.in/onlinetransfer/secure/login.jsp'.
+2020-09-14 15:48:34 INFO  Utilities:158 - Step Description--> null-->Set User Name in Login Page || Input Value : rbladmin
+2020-09-14 15:48:35 INFO  Utilities:158 - Step Description--> null-->Set Password in Login Page || Input Value : password@2
+2020-09-14 15:48:36 INFO  Utilities:158 - Step Description--> null-->Click on login Button on Admin Login Page
+2020-09-14 15:48:37 INFO  Utilities:158 - Step Description--> null-->Click on Logs button
+2020-09-14 15:48:39 INFO  Utilities:158 - Step Description--> null-->Click on PPS Logs button
+2020-09-14 15:48:39 INFO  Utilities:158 - Step Description--> null-->Swtich to frame
+2020-09-14 15:48:39 INFO  Utilities:158 - Step Description--> null-->fill RequestNo
+2020-09-14 15:49:24 INFO  Utilities:158 - Step Description--> null-->Click on submit Button
+2020-09-14 16:02:46 INFO  Utilities:158 - Step Description--> null-->Open URL - 'https://rbllastmile.remit.in/onlinetransfer/secure/login.jsp'.
+2020-09-14 16:02:46 INFO  Utilities:158 - Step Description--> null-->Set User Name in Login Page || Input Value : rbladmin
+2020-09-14 16:02:47 INFO  Utilities:158 - Step Description--> null-->Set Password in Login Page || Input Value : password@2
+2020-09-14 16:02:48 INFO  Utilities:158 - Step Description--> null-->Click on login Button on Admin Login Page
+2020-09-14 16:02:49 INFO  Utilities:158 - Step Description--> null-->Click on Logs button
+2020-09-14 16:02:51 INFO  Utilities:158 - Step Description--> null-->Click on PPS Logs button
+2020-09-14 16:02:54 INFO  Utilities:158 - Step Description--> null-->Swtich to frame
+2020-09-14 16:02:54 INFO  Utilities:158 - Step Description--> null-->fill RequestNo
+2020-09-14 16:02:55 INFO  Utilities:158 - Step Description--> null-->Click on submit Button
+2020-09-14 16:02:59 INFO  Utilities:158 - Step Description--> null-->fill RequestNo
+2020-09-14 16:03:00 INFO  Utilities:158 - Step Description--> null-->Click on submit Button
+2020-09-14 16:06:02 INFO  Utilities:158 - Step Description--> null-->Open URL - 'https://rbllastmile.remit.in/onlinetransfer/secure/login.jsp'.
+2020-09-14 16:06:03 INFO  Utilities:158 - Step Description--> null-->Set User Name in Login Page || Input Value : rbladmin
+2020-09-14 16:06:03 INFO  Utilities:158 - Step Description--> null-->Set Password in Login Page || Input Value : password@2
+2020-09-14 16:06:04 INFO  Utilities:158 - Step Description--> null-->Click on login Button on Admin Login Page
+2020-09-14 16:06:06 INFO  Utilities:158 - Step Description--> null-->Click on Logs button
+2020-09-14 16:06:07 INFO  Utilities:158 - Step Description--> null-->Click on PPS Logs button
+2020-09-14 16:06:07 INFO  Utilities:158 - Step Description--> null-->Swtich to frame
+2020-09-14 16:06:07 INFO  Utilities:158 - Step Description--> null-->fill RequestNo
+2020-09-14 16:06:08 INFO  Utilities:158 - Step Description--> null-->Click on submit Button
+2020-09-14 16:06:12 INFO  Utilities:158 - Step Description--> null-->fill RequestNo
+2020-09-14 16:06:13 INFO  Utilities:158 - Step Description--> null-->Click on submit Button
+2020-09-14 17:29:22 INFO  Utilities:158 - Step Description--> null-->Open URL - 'https://rbllastmile.remit.in/onlinetransfer/secure/login.jsp'.
+2020-09-14 17:29:22 INFO  Utilities:158 - Step Description--> null-->Set User Name in Login Page || Input Value : rbladmin
+2020-09-14 17:29:22 INFO  Utilities:158 - Step Description--> null-->Set Password in Login Page || Input Value : password@2
+2020-09-14 17:29:23 INFO  Utilities:158 - Step Description--> null-->Click on login Button on Admin Login Page
+2020-09-14 17:29:25 INFO  Utilities:158 - Step Description--> null-->Click on Logs button
+2020-09-14 17:29:26 INFO  Utilities:158 - Step Description--> null-->Click on PPS Logs button
+2020-09-14 17:29:26 INFO  Utilities:158 - Step Description--> null-->Swtich to frame
+2020-09-14 17:29:26 INFO  Utilities:158 - Step Description--> null-->fill RequestNo
+2020-09-14 17:29:28 INFO  Utilities:158 - Step Description--> null-->Click on submit Button
+2020-09-14 17:29:31 INFO  Utilities:158 - Step Description--> null-->fill RequestNo
+2020-09-14 17:29:32 INFO  Utilities:158 - Step Description--> null-->Click on submit Button
+2020-09-14 17:32:31 INFO  Utilities:158 - Step Description--> null-->Open URL - 'https://rbllastmile.remit.in/onlinetransfer/secure/login.jsp'.
+2020-09-14 17:32:31 INFO  Utilities:158 - Step Description--> null-->Set User Name in Login Page || Input Value : rbladmin
+2020-09-14 17:32:31 INFO  Utilities:158 - Step Description--> null-->Set Password in Login Page || Input Value : password@2
+2020-09-14 17:32:32 INFO  Utilities:158 - Step Description--> null-->Click on login Button on Admin Login Page
+2020-09-14 17:32:34 INFO  Utilities:158 - Step Description--> null-->Click on Logs button
+2020-09-14 17:32:36 INFO  Utilities:158 - Step Description--> null-->Click on PPS Logs button
+2020-09-14 17:32:36 INFO  Utilities:158 - Step Description--> null-->Swtich to frame
+2020-09-14 17:32:36 INFO  Utilities:158 - Step Description--> null-->fill RequestNo
+2020-09-14 17:32:37 INFO  Utilities:158 - Step Description--> null-->Click on submit Button
+2020-09-14 17:32:40 INFO  Utilities:158 - Step Description--> null-->fill RequestNo
+2020-09-14 17:32:42 INFO  Utilities:158 - Step Description--> null-->Click on submit Button
+2020-09-14 17:35:46 INFO  Utilities:158 - Step Description--> null-->Open URL - 'https://rbllastmile.remit.in/onlinetransfer/secure/login.jsp'.
+2020-09-14 17:35:46 INFO  Utilities:158 - Step Description--> null-->Set User Name in Login Page || Input Value : rbladmin
+2020-09-14 17:35:46 INFO  Utilities:158 - Step Description--> null-->Set Password in Login Page || Input Value : password@2
+2020-09-14 17:35:47 INFO  Utilities:158 - Step Description--> null-->Click on login Button on Admin Login Page
+2020-09-14 17:35:49 INFO  Utilities:158 - Step Description--> null-->Click on Logs button
+2020-09-14 17:35:50 INFO  Utilities:158 - Step Description--> null-->Click on PPS Logs button
+2020-09-14 17:35:54 INFO  Utilities:158 - Step Description--> null-->Swtich to frame
+2020-09-14 17:35:54 INFO  Utilities:158 - Step Description--> null-->fill RequestNo
+2020-09-14 17:35:56 INFO  Utilities:158 - Step Description--> null-->Click on submit Button
+2020-09-14 17:35:59 INFO  Utilities:158 - Step Description--> null-->fill RequestNo
+2020-09-14 17:36:00 INFO  Utilities:158 - Step Description--> null-->Click on submit Button
+2020-09-14 17:36:20 INFO  Utilities:158 - Step Description--> null-->Open URL - 'https://rbllastmile.remit.in/onlinetransfer/secure/login.jsp'.
+2020-09-14 17:36:20 INFO  Utilities:158 - Step Description--> null-->Set User Name in Login Page || Input Value : rbladmin
+2020-09-14 17:36:20 INFO  Utilities:158 - Step Description--> null-->Set Password in Login Page || Input Value : password@2

@@ -1,0 +1,123 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Scanario_Id_STP",
+        "description": "",
+        "id": "example;scanario-id-stp",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I want to \"/ILMAPI/LMAPI/ADDTRANSACTIONTEST\" and \"post\" API Request for \"IMPS\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I go to status \"/ILMAPI/LMAPI/STATUSCHECKTEST\" and \"post\" API Request for \"IMPS\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I am fetch Status response",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Navigate To Specific RBL Portal",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "Login to User Admin Using Following Credentials :",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "USERNAME",
+                  "PASSWORD"
+                ]
+              },
+              {
+                "cells": [
+                  "rbladmin",
+                  "password@2"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "I check a transaction log inquiry using corporate reference number",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "I check a PPS log inquiry of above transaction, for acknowledgement sent to WU",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "I go to Transaction Dashborad for validating response status with application status",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "I am close browser",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RestSingle"
+          }
+        ]
+      }
+    ],
+    "name": "Example",
+    "description": "  Given I am requesting \"BaseURI\".",
+    "id": "example",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/features/rbl/API.feature",
+    "tags": []
+  }
+]
